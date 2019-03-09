@@ -9,6 +9,9 @@
   height: 20px;
   width: 20px;
   border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  display: none;
 }
 
 .paddle {
@@ -18,4 +21,27 @@
   bottom: 2rem;
   left: 30%;
   border-radius: 25px;
+}
+
+.gameover {
+  position: absolute;
+  top: 4rem;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  z-index: 1;
+  background-color: #111;
+}
+
+.brick {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  width: 80px;
+  height: 50px;
+  line-height: 50px;
+  box-shadow: 0 2px 4px 0 rgba(255, 255, 255, .1);
+  font-size: 2rem;
+  text-align: center;
 }
