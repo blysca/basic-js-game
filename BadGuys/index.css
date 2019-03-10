@@ -1,0 +1,38 @@
+#container {
+  height: 75vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.basket {
+  position: absolute;
+  width: 8rem;
+  height: 4rem;
+  bottom: 3rem;
+  left: 4rem;
+  background-color: lightcoral;
+}
+
+.basket1 {
+  width: 80%;
+  height: 1.5rem;
+  margin: 0 auto;
+  background-color: silver
+}
+
+
+
+.baddy {
+  border-radius: 4rem;
+  position: absolute;
+  width: 3rem;
+  height: 5rem;
+  top: 0;
+  left: 0;
+  background-color: lightcoral;
+}
+
+.gameover {
+  position: relative;
+  z-index: 1;
+}

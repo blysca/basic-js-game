@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link href="https://unpkg.com/basscss@7.1.1/css/basscss.min.css" rel="stylesheet" />
+  <link href="./index.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="p2 j-header">
+    <button class="btn btn-primary p1 h3 black bg-aqua j-start-btn">Start Game</button>
+    <h2>Score: <span class="j-score"></span></h2>
+  </header>
+  <main>
+    <section class="p2">
+      <div id="container" class="container bg-silver">
+        <div class='gameover h1 p2 center mt3 j-gameover-text'>Click Start Button</div>
+        <div id="basket-container" class="basket">
+          <div class="basket1"></div>
+        </div>
+        <div class="baddy"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
