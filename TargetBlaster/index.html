@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Target Blaster</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="./site.webmanifest">
+  <link rel="preconnect" href="https://unpkg.com/" crossorigin>
+  <link href="https://unpkg.com/basscss@7.1.1/css/basscss.min.css" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header-info">
+    <button class="j-btn-start btn btn-primary bg-yellow black">Start Game</button>
+    Score: <span class="score j-score">0</span>
+  </header>
+  <main class="container j-container relative overflow-hidden bg-darken-3">
+    <div class="game-over j-game-over">click start button</div>
+    <div class="crossHair j-cross-hair">
+      <div class="crossInfo j-cross-info"></div>
+    </div>
+  </main>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"
+    integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous">
+  </script>
+  <script src="./index.js"></script>
+</body>
+
+</html>

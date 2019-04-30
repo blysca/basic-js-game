@@ -1,0 +1,81 @@
+.output {
+  position: relative;
+}
+
+main.container {
+  height: 90vh;
+  cursor: none;
+}
+
+.crossHair {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  left: 10%;
+  bottom: 10%;
+  border: 1px solid #000;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 10;
+}
+
+.crossInfo {
+  position: absolute;
+  height: 1rem;
+  background-color: #000;
+  bottom: 0;
+  left: 50%;
+  line-height: 1rem;
+  color: #eee;
+  font-size: .75rem;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  padding: 0 2px;
+}
+
+.box {
+  position: absolute;
+  min-height: 2rem;
+  min-width: 2rem;
+  top: 4rem;
+  left: 8rem;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.baddy {
+  position: absolute;
+  left: 10rem;
+  top: 20rem;
+  width: 100px;
+  height: 100px;
+  padding: 4px;
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 100%;
+  text-align: center;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12);
+}
+
+.game-over {
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  line-height: 2;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.fire-me {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .1);
+  border-radius: 100%;
+  z-index: 1;
+}
